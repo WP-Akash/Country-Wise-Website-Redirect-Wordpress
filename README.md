@@ -45,6 +45,7 @@ require __DIR__ . '/wp-blog-header.php';
     default:
     define( 'WP_USE_THEMES', true );
     require __DIR__ . '/wp-blog-header.php';
+}
 ```
 
 ## Step 2 Examples
@@ -63,6 +64,7 @@ require __DIR__ . '/wp-blog-header.php';
         break;
     default:
     header('Location:http://domain.com/');
+}
 ```
 ## Exjample More Code
 
